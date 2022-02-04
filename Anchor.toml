@@ -1,0 +1,12 @@
+[programs.devnet]
+anchor_template = "4UbeHWCbfqHE8fM4ykCZK33ZcFUYijrk1dCK5jjtNKMY"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/pickfordpatriot/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
